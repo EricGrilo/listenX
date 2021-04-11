@@ -1,0 +1,120 @@
+{
+  "title": "INDIE",
+  "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam, odit vel. Repellat voluptatem neque corporis culpa reiciendis quisquam suscipit assumenda cum mollitia corrupti consequuntur excepturi ducimus voluptate id, tenetur ex.",
+  "image_path": "imgs/Cover.jpeg",
+  "lastModified": "11/04/2021",
+  "valid": "26/04/2021",
+  "info": "ListenX",
+  "music": [
+    {
+      "name": "Talk",
+      "artist": "Khalid",
+      "energy": "M\u00e9dia",
+      "language": "Ingl\u00eas",
+      "voice": "Masculina",
+      "liked": "neutro",
+      "path": "api/V1/data/music/Khalid-Talk.mp3",
+      "isPlaying": "stopped",
+      "$$hashKey": "006"
+    },
+    {
+      "name": "Feel It Still",
+      "artist": "Portugal. The Man",
+      "energy": "Alta",
+      "language": "Ingl\u00eas",
+      "voice": "Masculina",
+      "liked": "neutro",
+      "path": "api/V1/data/music/portugal_the_man_feel_it_still.mp3",
+      "isPlaying": "stopped",
+      "$$hashKey": "009"
+    },
+    {
+      "name": "Dog Days Are Over",
+      "artist": "Florence + The Machine",
+      "energy": "Alta",
+      "language": "Ingl\u00eas",
+      "voice": "Feminina",
+      "liked": "neutro",
+      "path": "api/V1/data/music/florence_the_machine_dog_days_are_over.mp3",
+      "isPlaying": "playing",
+      "$$hashKey": "00C"
+    },
+    {
+      "name": "Mais Ningu\u00e9m",
+      "artist": "Banda do Mar",
+      "energy": "Baixa",
+      "language": "Portugu\u00eas",
+      "voice": "Feminina",
+      "liked": "neutro",
+      "path": "api/V1/data/music/banda_do_mar_mais_ninguem.mp3",
+      "isPlaying": "stopped",
+      "$$hashKey": "00F"
+    },
+    {
+      "name": "Young Folks",
+      "artist": "Peter Bjorn And John",
+      "energy": "M\u00e9dia",
+      "language": "Ingl\u00eas",
+      "voice": "Masculina",
+      "liked": "neutro",
+      "path": "api/V1/data/music/peter_bjorn_and_john_young_folks.mp3",
+      "isPlaying": "stopped",
+      "$$hashKey": "00I"
+    },
+    {
+      "name": "Brazilian Soul",
+      "artist": "The Knocks",
+      "energy": "Baixa",
+      "language": "Ingl\u00eas",
+      "voice": "Feminina",
+      "liked": "neutro",
+      "path": "api/V1/data/music/the_knocks_brazilian_soul.mp3",
+      "isPlaying": "stopped",
+      "$$hashKey": "00L"
+    },
+    {
+      "name": "Loser",
+      "artist": "Moby Rich",
+      "energy": "M\u00e9dia",
+      "language": "Ingl\u00eas",
+      "voice": "Masculina",
+      "liked": "neutro",
+      "path": "api/V1/data/music/moby_rich_loser.mp3",
+      "isPlaying": "stopped",
+      "$$hashKey": "00O"
+    },
+    {
+      "name": "BAMBAM",
+      "artist": "\u00c4ngie",
+      "energy": "Alta",
+      "language": "Ingl\u00eas",
+      "voice": "Feminina",
+      "liked": "neutro",
+      "path": "api/V1/data/music/BAMBAM.mp3",
+      "isPlaying": "stopped",
+      "$$hashKey": "00R"
+    },
+    {
+      "name": "Pra Ter o Que Fazer",
+      "artist": "Clarice Falc\u00e3o",
+      "energy": "Baixa",
+      "language": "Portugu\u00eas",
+      "voice": "Feminina",
+      "liked": "neutro",
+      "path": "api/V1/data/music/Pra-Ter-o-Que-Fazer.mp3",
+      "isPlaying": "stopped",
+      "$$hashKey": "00U"
+    },
+    {
+      "name": "Sit Next to Me",
+      "artist": "Foster The People",
+      "energy": "M\u00e9dia",
+      "language": "Ingl\u00eas",
+      "voice": "Masculina",
+      "liked": "neutro",
+      "path": "api/V1/data/music/Sit-Next-to-Me-Audio.mp3",
+      "isPlaying": "stopped",
+      "$$hashKey": "00X"
+    }
+  ]
+}

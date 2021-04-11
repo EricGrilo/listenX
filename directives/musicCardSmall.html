@@ -1,0 +1,55 @@
+<div class="row align-items-center shadow" id="cardMusica">
+    <div class="col-1 ">
+        <div class="row justify-content-around">
+            <i ng-click="playAudio({music:music})" ng-show="music.isPlaying == 'playing'"
+                class="material-icons-outlined">
+                pause
+            </i>
+            <i ng-click="playAudio({music:music})" ng-show="music.isPlaying != 'playing'" class="material-icons">
+                play_arrow
+            </i>
+            <i ng-click="skipTime({music:music})" class="material-icons-outlined">
+                redo
+            </i>
+        </div>
+    </div>
+    <div class="col-10">
+        <div class="row justify-content-center " style="font-size:150%;font-weight: 700;">
+            {{music.name}}
+        </div>
+        <div class="row justify-content-center" style="font-size:110%;font-weight: 700;">
+            {{music.artist}}
+        </div>
+        <div class="row justify-content-center">
+            <div class="col text-center">
+                <span><span style="font-weight: 700;">Energia: </span>{{music.energy}}</span>
+            </div>
+            <div class="col text-center">
+                <span><span style="font-weight: 700;">Idioma: </span>{{music.language}}</span>
+            </div>
+            <div class="col text-center">
+                <span><span style="font-weight: 700;">Voz: </span>{{music.voice}}</span>
+            </div>
+        </div>
+    </div>
+    <div class="col-1" ng-show="music.liked != 'like' && music.liked != 'dislike'">
+        <div class=" row justify-content-around">
+            <i class="material-icons-outlined" ng-click="statusLike({music:music,click:'like'})">thumb_up</i>
+            <i class="material-icons-outlined" ng-click="statusLike({music:music,click:'dislike'})">thumb_down</i>
+        </div>
+    </div>
+    <div class="col-1" ng-show="music.liked == 'dislike'">
+        <div class=" row justify-content-around">
+            <i class="material-icons-outlined" ng-click="statusLike({music:music,click:'like'})">thumb_up</i>
+            <i class="material-icons" style="color:#b81313;"
+                ng-click="statusLike({music:music,click:'dislike'})">thumb_down</i>
+        </div>
+    </div>
+    <div class="col-1" ng-show="music.liked == 'like'">
+        <div class=" row justify-content-around">
+            <i class="material-icons" style="color:#008458;"
+                ng-click="statusLike({music:music,click:'like'})">thumb_up</i>
+            <i class="material-icons-outlined" ng-click="statusLike({music:music,click:'dislike'})">thumb_down</i>
+        </div>
+    </div>
+</div>
